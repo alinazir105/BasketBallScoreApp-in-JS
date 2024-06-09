@@ -1,0 +1,60 @@
+@import url(https://db.onlinewebfonts.com/c/ab0e848e0e83a85a5af69f5acf1ebe73?family=Cursed+Timer+ULiL);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#scoreboard{
+    background: #1b244a;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#score-container{
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#score{
+    background: black;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+#home-score-text{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 70px;
+}
+
+#guest-score-text{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-size: 70px;
+}
+
+#btn-container{
+    margin-top: 10px;
+}
+
+button{
+    background: #1b244a;
+    color: #9AABD8;
+    padding: 8px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 15px;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    width: 30%;
+    cursor: pointer;
+}
+
+#new-btn-container{
+    margin-top: 40px;
+    text-align: center;
+}
